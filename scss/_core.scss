@@ -9,3 +9,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+[class^="zmdi-"], 
+[class*=" zmdi-"] {
+    display: inline-block;
+    font: normal normal normal 14px/1 '#{$zmdi-font-name}';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
